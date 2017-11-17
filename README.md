@@ -14,7 +14,11 @@ Amazon S3 module for Play Framework 2
 #### build.sbt
 
      resolvers += "jitpack" at "https://jitpack.io"
+     libraryDependencies += "com.github.0xbaadf00d" % "play-s3-module" % "release~17.08"
+     
+##### To install another version
 
+     resolvers += "jitpack" at "https://jitpack.io"
      libraryDependencies += "com.github.0xbaadf00d" % "play-s3-module" % "release~YY.MM"
 
 #### application.conf
